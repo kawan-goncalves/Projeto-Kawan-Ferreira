@@ -44,6 +44,9 @@ body{
 .banner .container.login{
     justify-content: center;
 }
+.banner .container.cadastro{
+    justify-content: center;
+}
 .banner p{
     font-size: 36px;
     width: 200px;
@@ -113,10 +116,13 @@ form{
     width: 250px;
 }
 form label{
-    margin-top: 8px;
+    margin-top: 16px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
 }
 form input{
     margin-top: 8px;
+    margin-bottom: 10px;
     outline:3px solid #32B9CD;
     border: 0;
     padding: 8px;
@@ -131,7 +137,12 @@ form button{
     align-self: center;
     font-size: 18px;
     border: 0;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+}
+.cadastro .card{
+    height: 420px;
 }
 
