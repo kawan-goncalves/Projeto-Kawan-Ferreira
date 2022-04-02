@@ -41,6 +41,9 @@ body{
     color: white;
     align-items: center;
 }
+.banner .container.cadastro{
+    padding-bottom: 50px;
+}
 .banner .container.login{
     justify-content: center;
 }
