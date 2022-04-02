@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding:0;
-    font-family: 'Berlow', sans-serif;
+    font-family: 'Barlow', sans-serif;
 }
 .header{
     background-color: #000407;
@@ -46,8 +46,40 @@ body{
 }
 .banner p{
     font-size: 36px;
-    width: 280px;
+    width: 200px;
     margin-left: 20%;
+}
+.content {
+    background-color: #E5E5E5;
+    font-family: 'Exo 2', sans-serif;
+}
+.content .container{
+    height: 412px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content .container .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content .container .box p{
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    width: 222px;
+    color: #292C34;
+    
+}
+.content .container .box h6{
+    margin: 7px 0 0 0;
+    font-size: 22px;
+    font-weight: 700;
+    color: #E6005A;
+}
+.content img{
+    height: 150px;
 }
 .footer{
     background-color: #32B9CD;
