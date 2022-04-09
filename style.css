@@ -119,13 +119,13 @@ form{
     width: 250px;
 }
 form label{
-    margin-top: 16px;
+    margin-top: 10px;
     font-family: 'Exo 2', sans-serif;
     font-weight: 700;
 }
 form input{
     margin-top: 8px;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
     outline:3px solid #32B9CD;
     border: 0;
     padding: 8px;
@@ -146,6 +146,6 @@ form button{
     font-weight: 700;
 }
 .cadastro .card{
-    height: 420px;
+    height: 470px;
 }
 
